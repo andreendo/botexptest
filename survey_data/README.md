@@ -1,0 +1,1 @@
+The survey and its responses are in Portuguese since all participants in the user study are Brazilians. 

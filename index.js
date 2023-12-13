@@ -84,10 +84,10 @@ client.on("messageCreate", function (message) {
         }else{
           message.reply(ret.retorno);
           if(message.content.toLowerCase() === '?charter'){
-            sendAttached.sendAttached(message, 'https://www.grupotcm.com.br/downloads/Charters.png',  'Charter.gif')
+            sendAttached.sendAttached(message, 'https://www.site.com/downloads/Charters.png',  'Charter.gif')
             
-            //sendAttached.sendAttached(message, 'https://www.grupotcm.com.br/downloads/Charter2C.png', 'Charter2 Compras.png')           
-            //sendAttached.sendAttached(message, 'https://www.grupotcm.com.br/downloads/Charter2L.png', 'Charter 2 Lixo teste.png')
+            //sendAttached.sendAttached(message, 'https://www.site.com/downloads/Charter2C.png', 'Charter2 Compras.png')           
+            //sendAttached.sendAttached(message, 'https://www.site.com/downloads/Charter2L.png', 'Charter 2 Lixo teste.png')
           }
         }
       }
